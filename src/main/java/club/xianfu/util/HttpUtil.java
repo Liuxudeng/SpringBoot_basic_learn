@@ -12,7 +12,7 @@ public class HttpUtil {
 
         OkHttpClient okHttpClient = new OkHttpClient();
 
-        Request request = new Request.Builder().url("http://www.baidu.com").build();
+        Request request = new Request.Builder().url(url).build();
         //发送请求
 
         String result= null;
